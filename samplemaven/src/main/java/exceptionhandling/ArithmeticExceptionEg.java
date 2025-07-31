@@ -9,22 +9,22 @@ public class ArithmeticExceptionEg {
 		try {
 		int c=a/b;
 		}
-//		catch (ArithmeticException e)
-//		{
-//			b=2;
-//			int d =a/b;
-//		System.out.println("the divided value at  catch: " +d);	
-//		System.out.println("exception  is: " +e);
-//		}
-//		System.out.println("the divided valu is: ");
-		
-		finally
+		catch (ArithmeticException e)
 		{
-			
 			b=2;
 			int d =a/b;
-			System.out.println("the divided value at  catch: " +d);	
+		System.out.println("the divided value at  catch: " +d);	
+		System.out.println("exception  is: " +e);
 		}
+		System.out.println("the divided valu is: ");
+		
+//		finally
+//		{
+//			
+//			b=2;
+//			int d =a/b;
+//			System.out.println("the divided value at  catch: " +d);	
+//		}
 		System.out.println("sdxcfvgbhnm ");
 	}
 

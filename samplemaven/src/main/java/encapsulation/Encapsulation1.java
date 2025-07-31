@@ -1,7 +1,7 @@
 package encapsulation;
 
 public class Encapsulation1 {
-	private String name;
+	private String name="ddd";
 	private int age;
 	
 	public void setter(String name,int age) {

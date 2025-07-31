@@ -2,10 +2,12 @@ package superkeyword;
 
 public class SuperConstructorChild extends SuperConstructorParent {
 	
-	public SuperConstructorChild()
+	public SuperConstructorChild( int a, int b)
 	{
 		super(2,6);
-		System.out.println("child class constructor");
+		int sub=a-b;
+		//System.out.println("child class constructor");
+		System.out.println(sub);
 		
 	}
 	
@@ -14,7 +16,7 @@ public class SuperConstructorChild extends SuperConstructorParent {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		SuperConstructorChild obj=new SuperConstructorChild();
+		SuperConstructorChild obj=new SuperConstructorChild(5,2);
 
 	}
 

@@ -10,6 +10,9 @@ public class AccessModifier2 {
 		//default,public and protected can be accesses in another class
 		//
 		AccesModifiers1 obj= new AccesModifiers1();
+		obj.display();
+		obj.display3();
+		obj.display4();
 		
 	}
 

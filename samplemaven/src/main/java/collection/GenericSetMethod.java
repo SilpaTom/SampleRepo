@@ -23,12 +23,16 @@ public class GenericSetMethod {
 		System.out.println(a.containsAll(b));
 		System.out.println(a.isEmpty());
 		System.out.println(a.size());
-		a.remove("banana");
-		System.out.println(a);
-		a.removeAll(b);
-		System.out.println(a);
-		a.clear();
-		System.out.println(a);
+//		a.remove("banana");
+//		System.out.println(a);
+//		a.removeAll(b);
+//		System.out.println(a);
+//		a.clear();
+//		System.out.println(a);
+		
+		for(String var: a) {
+			System.out.println(var);
+		}
 	}
 
 }
